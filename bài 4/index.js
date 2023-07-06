@@ -17,9 +17,9 @@ function tinhtiennhadan (sokenhcaocap){
 function tinhtiendoanhnghiep(sokenhcaocap,kenhketnoi){
     var phixulyhoadon = 15;
     if(kenhketnoi <= 10){
-        var phidichvucoban = kenhketnoi * 75;
+        var phidichvucoban =75;
     }else {
-        var phidichvucoban = kenhketnoi * 80;
+        var phidichvucoban = 75 + (kenhketnoi - 10)*80;
     }
     var phithuekenhcaocap = sokenhcaocap * 50;
     var tongchiphi = phixulyhoadon + phidichvucoban + phithuekenhcaocap;
